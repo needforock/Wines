@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+
+
+    <EditText
+        android:id="@+id/nameEt"
+        android:hint="Nombre del Viñedo"
+        android:background="@drawable/bg_white_bordered_primary"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/typeEt"
+        android:hint="Tipo de vino"
+        android:background="@drawable/bg_white_bordered_primary"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:hint="Edad del Vino"
+        android:id="@+id/ageEt"
+        android:background="@drawable/bg_white_bordered_primary"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:inputType="text"/>
+
+    <ImageButton
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/saveWineBtn"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:scaleType="centerCrop"
+        android:theme="@style/AccentButton"
+        android:src="@mipmap/ic_save_white_24dp"/>
+</LinearLayout>
